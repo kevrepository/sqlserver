@@ -1,0 +1,2 @@
+bidshelper
+    https://archive.codeplex.com/?p=bidshelper

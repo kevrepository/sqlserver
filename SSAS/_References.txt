@@ -1,0 +1,43 @@
+Decisions: PowerPivot, SSAS Tabular, or SSAS Multidimensional Model in SQL Server 2012
+    https://www.sqlchick.com/entries/2012/3/4/decisions-powerpivot-ssas-tabular-or-ssas-multidimensional-m.html
+
+SSAS Multidimensional Model
+    Data Sources and Bindings (SSAS Multidimensional)
+        https://technet.microsoft.com/en-us/library/ms128523(v=sql.110).aspx
+    
+    Configuring Measure Properties
+        https://technet.microsoft.com/en-us/library/ms175623(v=sql.105).aspx
+
+Backing Up, Restoring, and Synchronizing Databases (XMLA)
+    https://docs.microsoft.com/en-us/sql/analysis-services/multidimensional-models-scripting-language-assl-xmla/backing-up-restoring-and-synchronizing-databases-xmla
+    
+MDX
+    MDX Function Reference (MDX)
+        https://docs.microsoft.com/en-us/sql/mdx/mdx-function-reference-mdx
+    
+    Stairway to MDX
+        http://www.sqlservercentral.com/stairway/72404/
+        
+Configure Measure Properties
+    https://docs.microsoft.com/en-us/sql/analysis-services/multidimensional-models/configure-measure-properties#AggFunction
+    
+SSAS Dynamic Security
+    http://richardlees.blogspot.ru/2010/10/ssas-dynamic-security.html
+    
+Grant custom access to dimension data (Analysis Services)
+    https://docs.microsoft.com/en-us/sql/analysis-services/multidimensional-models/grant-custom-access-to-dimension-data-analysis-services
+    
+Grant custom access to cell data (Analysis Services)
+    https://docs.microsoft.com/en-us/sql/analysis-services/multidimensional-models/grant-custom-access-to-cell-data-analysis-services
+    
+The Additive Design of SSAS Role Security
+    https://blogs.msdn.microsoft.com/psssql/2014/07/30/the-additive-design-of-ssas-role-security/
+    
+Comparing tabular and multidimensional solutions
+    https://docs.microsoft.com/en-us/sql/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas
+    
+Use of Impersonation in SSAS?
+    https://social.msdn.microsoft.com/Forums/sqlserver/en-US/80799351-a1d1-4c08-8b31-bb95d1053fd3/use-of-impersonation-in-ssas?forum=sqlanalysisservices
+    
+Impersonation Mode, Connecting to DataSource
+    https://social.msdn.microsoft.com/Forums/sqlserver/en-US/62e56047-442e-4d6e-9aa3-a3ae6a52e206/impersonation-mode-connecting-to-datasource?forum=sqlanalysisservices
