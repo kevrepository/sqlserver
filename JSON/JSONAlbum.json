@@ -1,0 +1,29 @@
+{  
+    "Album":"Wish You Were Here"
+   ,"Year":1975
+   ,"IsVinyl":true
+   ,"Songs":[
+       {
+          "Title":"Shine On You Crazy Diamond"
+          ,"Authors":"Gilmour, Waters, Wright"
+       }
+      ,{
+          "Title":"Have a Cigar"
+          ,"Authors":"Waters"
+       }
+      ,{
+          "Title":"Welcome to the Machine"
+          ,"Authors":"Waters"
+       }
+      ,{
+          "Title":"Wish You Were Here"
+          ,"Authors":"Gilmour, Waters"
+       }
+    ]
+   ,"Members":{
+        "Guitar":"David Gilmour"
+       ,"Bass Guitar":"Roger Waters"
+       ,"Keyboard":"Richard Wright"
+       ,"Drums":"Nick Mason"
+    }
+}

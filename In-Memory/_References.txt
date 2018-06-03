@@ -1,0 +1,34 @@
+Pro T-SQL Programmer’s Guide, 4th Edition
+    https://www.safaribooksonline.com/library/view/pro-t-sql-programmers/9781484201459/9781484201466_Ch06.xhtml
+
+Expert SQL Server In-Memory OLTP
+    https://www.safaribooksonline.com/library/view/expert-sql-server/9781484211366/
+
+SQL Server T-SQL Recipes, Fourth Edition
+    https://www.safaribooksonline.com/library/view/sql-server-t-sql/9781484200612/9781484200629_Ch19.xhtml
+    
+Table and Row Size in Memory-Optimized Tables
+    https://docs.microsoft.com/en-us/sql/relational-databases/in-memory-oltp/table-and-row-size-in-memory-optimized-tables
+    
+Increased Memory Size for In-Memory OLTP in SQL Server 2016
+    https://blogs.msdn.microsoft.com/sqlserverstorageengine/2016/06/23/increased-memory-size-for-in-memory-oltp-in-sql-server-2016/
+    
+    
+Transact-SQL Constructs Not Supported by In-Memory OLTP
+    https://docs.microsoft.com/en-us/sql/relational-databases/in-memory-oltp/transact-sql-constructs-not-supported-by-in-memory-oltp
+    
+Unsupported SQL Server Features for In-Memory OLTP
+    https://docs.microsoft.com/en-us/sql/relational-databases/in-memory-oltp/unsupported-sql-server-features-for-in-memory-oltp
+    
+In-Memory OLTP (Hekaton) and Sort Warnings
+    http://www.sqlpassion.at/archive/2015/02/05/memory-oltp-hekaton-sort-warnings/
+        
+Configuring the In-Memory OLTP File Group for High Performance
+    http://www.sqlpassion.at/archive/2014/06/16/configuring-the-in-memory-oltp-file-group-for-high-performance/
+    
+Extreme Transaction Processing (XTP, Hekaton) – the solution to everything?
+    http://www.sqlpassion.at/archive/2013/08/12/extreme-transaction-processing-xtp-hekaton-the-solution-to-everything/
+        
+SQL Server Hekaton (XTP) in-memory tables: Choosing the correct BUCKET_COUNT for a Hash Index
+    http://dataidol.com/tonyrogerson/2014/01/25/sql-server-hekaton-xtp-in-memory-tables-choosing-the-correct-bucket_count-for-a-hash-index/
+    

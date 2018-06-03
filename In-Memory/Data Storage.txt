@@ -1,0 +1,2 @@
+https://docs.microsoft.com/ru-ru/sql/relational-databases/in-memory-oltp/durability-for-memory-optimized-tables
+https://www.safaribooksonline.com/library/view/expert-sql-server/9781484211366/9781484211373_Ch08.xhtmlhttps://www.safaribooksonline.com/library/view/expert-sql-server/9781484211366/9781484211373_Ch08.xhtml

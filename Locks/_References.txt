@@ -1,0 +1,20 @@
+Pro SQL Server Internals, Second Edition
+    https://www.safaribooksonline.com/library/view/pro-sql-server/9781484219645/A313962_2_En_17_Chapter.html
+    
+How Online Index Operations Work
+    https://technet.microsoft.com/en-us/library/ms191261(SQL.90).aspx
+    
+Heaps, Deletes, and Optimistic Isolation Levels
+    https://www.brentozar.com/archive/2018/01/heaps-deletes-optimistic-isolation-levels/
+    
+A SQL Server DBA myth a day: (23/30) lock escalation
+    https://www.sqlskills.com/blogs/paul/a-sql-server-dba-myth-a-day-2330-lock-escalation/
+    
+SQL Server 2008: Partition-level lock escalation details and examples
+    https://www.sqlskills.com/blogs/paul/sql-server-2008-partition-level-lock-escalation-details-and-examples/
+    
+Понимание и устранение проблем с блокировкой SQL Server
+    https://support.microsoft.com/en-us/help/224453/inf-understanding-and-resolving-sql-server-blocking-problems
+    
+Understanding and resolving SQL Server blocking problems
+    https://support.microsoft.com/en-us/help/224453/inf-understanding-and-resolving-sql-server-blocking-problems

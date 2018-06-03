@@ -1,0 +1,8 @@
+SELECT *
+FROM   sys.dm_xtp_gc_stats;
+
+SELECT *
+FROM   sys.dm_xtp_gc_queue_stats;
+
+SELECT *
+FROM   sys.dm_db_xtp_gc_cycle_stats  
