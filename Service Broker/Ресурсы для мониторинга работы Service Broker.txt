@@ -1,0 +1,86 @@
+﻿SQL Server Profiler
+    Broker:Activation
+        Cрабатывает, когда монитор очереди запускает хранимую процедуру активации.
+    Broker:Connection
+        Cообщает о состоянии транспортного соединения, управляемого Service Broker.
+    Broker:Conversation
+        Рассказывает о ходе диалога.
+    Broker:Conversation Group
+        Формируется, когда группа разговора создается или удаляется.
+    Broker:Corrupted Message
+        Cрабатывает при получении поврежденного сообщения.
+    Broker:Forwarded Message Dropped
+        Срабатывает, когда сообщение, предназначенное для пересылки, было удалено.
+    Broker:Forwarded Message Sent
+        Срабатывает, когда сообщение успешно отправлено.
+    Broker:Message Classify
+        Срабатывает, когда была определена маршрутизация сообщения.
+    Broker:Message Undeliverable
+        Cрабатывает, когда полученное сообщение, которое должно было быть доставлено службе в этом экземпляре, не может быть сохранено.
+    Broker:Mirred Route State Changed
+        Происходит, когда изменяется состояние активного зеркального маршрута.
+    Broker:Queue Disabled
+        Cрабатывает, когда полученное сообщение, которое должно было быть доставлено службе в этом экземпляре, не может быть сохранено.
+    Broker:Remote Message Acknowledgement
+        Cрабатывает, когда отправляется или принимается подтверждающее сообщение.
+    Broker:Transmission
+        Cрабатывает, когда на транспортном уровне возникает ошибка. Номер ошибки и значения состояния указывают на источник ошибки.
+    Security Audit:Audit Broker Login
+        Сообщает о сообщениях аудита, связанных с механизмом обеспечения безопасности транспорта, реализованным в компоненте Service Broker.
+    Security Audit:Audit Broker Conversation
+        Отчеты аудита, связанные с безопасностью диалога Service Broker.
+    
+Extended Events
+    
+    SELECT dxp.name AS package_name
+          ,dxo.name AS event_name
+          ,dxo.description
+    FROM   sys.dm_xe_packages AS dxp 
+           INNER JOIN sys.dm_xe_objects AS dxo 
+                   ON dxo.package_guid = dxp.guid
+    WHERE  (dxp.capabilities IS NULL
+            OR dxp.capabilities & 1 = 0)     -- Exclude private packages.
+           AND (dxo.capabilities IS NULL
+                OR dxo.capabilities & 1 = 0) -- Exclude private objects.
+           AND dxo.object_type = 'event'
+           AND dxo.name LIKE '%broker%'
+    ORDER  BY dxp.name, dxo.name;
+    
+ssbdiagnose
+
+Catalog Views
+    sys.conversation_endpoints
+        Это представление каталога содержит строку на конечную точку сеанса в базе данных.
+    sys.conversation_groups
+        Это представление каталога содержит строку для каждой группы разговоров.
+    sys.conversation_priorities
+        Содержит строку для каждого приоритета разговора, созданного в текущей базе данных.
+    sys.remote_service_bindings
+        Это представление каталога содержит строку для привязки к удаленной службе.
+    sys.routes
+        Представления этого каталога содержат одну строку для каждого маршрута.
+    sys.service_contracts
+        Это представление каталога содержит строку для каждого контракта в базе данных.
+    sys.service_contract_message_usages
+        В этом представлении каталога содержится пара строк (контракт, тип сообщения).
+    sys.service_contract_usages
+        В этом представлении каталога содержится строка за (услуга, контракт).
+    sys.service_message_types
+        Это представление каталога содержит строку на тип сообщения, зарегистрированную в сервис-брокере.
+    sys.service_queue_usages
+        Это представление каталога возвращает строку для каждой ссылки между служебной и служебной очередью. Служба может быть связана только с одной очередью. Очередь может быть связана с несколькими службами.
+    sys.services
+        Это представление каталога содержит строку для каждой службы в базе данных.
+    sys.transmission_queue
+        Это представление каталога содержит строку для каждого сообщения в очереди передачи.
+
+Dynamic Management Views (DMVs)
+    sys.dm_broker_activated_tasks	
+        Возвращает строку для каждой хранимой процедуры, активированной Service Broker.
+    sys.dm_broker_forwarded_messages
+        Возвращает строку для каждого сообщения Service Broker, что экземпляр SQL Server находится в процессе пересылки.
+    sys.dm_broker_connections
+        Возвращает строку для каждого сетевого подключения Service Broker.
+    sys.dm_broker_queue_monitors
+        Возвращает строку для каждого монитора очереди в экземпляре.
+  

@@ -1,0 +1,7 @@
+Service Broker Foundations Workbench
+Adam Machanic
+https://www.red-gate.com/simple-talk/sql/learn-sql-server/service-broker-foundations-workbench/
+
+Service Broker Advanced Basics Workbench
+Adam Machanic
+https://www.red-gate.com/simple-talk/sql/learn-sql-server/service-broker-advanced-basics-workbench/

@@ -1,0 +1,6 @@
+Qualys
+    www.qualys.com
+Metasploit
+    www.metasploit.com
+Kali Linux
+    www.kali.org

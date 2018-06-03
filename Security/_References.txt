@@ -1,0 +1,26 @@
+How to migrate the logins of a database to a different server
+    https://www.sqlshack.com/migrate-logins-database-different-server/
+
+How to transfer logins and passwords between instances of SQL Server
+    https://support.microsoft.com/en-us/help/918992/how-to-transfer-logins-and-passwords-between-instances-of-sql-server
+
+SQL Server Using Powershell to Move Logins between Instances
+    http://www.sqlservergeeks.com/sql-server-using-powershell-to-move-logins-between-instances/
+    
+SQL Server Audit
+    https://www.safaribooksonline.com/library/view/securing-sql-server/9781484222652/A395795_1_En_3_Chapter.html
+    
+Dynamic Data Masking
+    https://docs.microsoft.com/en-us/sql/relational-databases/security/dynamic-data-masking
+    
+    Encrypting SQL Server: Dynamic Data Masking
+        https://www.red-gate.com/simple-talk/sql/sql-development/encrypting-sql-server-dynamic-data-masking/
+        
+    Dynamic Data Masking Feature in SQL Server 2016
+        http://www.sqlservercentral.com/articles/Security/149689/
+        
+    Using Dynamic Data Masking in SQL Server 2016 to protect sensitive data
+        https://www.sqlshack.com/using-dynamic-data-masking-in-sql-server-2016-to-protect-sensitive-data/
+        
+How long is the output of EncryptByPassPhrase(), relative to the input?
+    https://dba.stackexchange.com/questions/120929/how-long-is-the-output-of-encryptbypassphrase-relative-to-the-input

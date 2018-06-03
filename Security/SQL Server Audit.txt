@@ -1,0 +1,8 @@
+SQL Server Audit (Database Engine)
+    https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/sql-server-audit-database-engine
+
+Write SQL Server Audit Events to the Security Log
+    https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/write-sql-server-audit-events-to-the-security-log
+    
+SQL Server Audit Action Groups and Actions
+    https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/sql-server-audit-action-groups-and-actions
