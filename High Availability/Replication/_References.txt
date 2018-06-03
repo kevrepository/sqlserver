@@ -1,0 +1,2 @@
+sp_publication_validation procedure doesn't seem to work properly
+    https://dba.stackexchange.com/questions/74689/sp-publication-validation-procedure-doesnt-seem-to-work-properly

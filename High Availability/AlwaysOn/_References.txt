@@ -1,0 +1,6 @@
+Monitor Performance for AlwaysOn Availability Groups
+    https://msdn.microsoft.com/en-us/library/dn135338%28v=sql.110%29.aspx?f=255&MSPPError=-2147217396
+SQL Server, Availability Replica
+    https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ff878472(v=sql.110)
+    
+    

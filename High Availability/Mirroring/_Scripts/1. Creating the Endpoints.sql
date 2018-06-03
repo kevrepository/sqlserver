@@ -1,0 +1,49 @@
+-- Create endpoint for principal server.
+CREATE ENDPOINT end_point_name  STATE = STARTED
+AS TCP 
+(
+    LISTENER_PORT = 51430
+   ,LISTENER_IP = ALL
+) FOR DATA_MIRRORING (ROLE = PARTNER, AUTHENTICATION = WINDOWS NEGOTIATE, ENCRYPTION = REQUIRED ALGORITHM RC4);
+
+GO
+
+GRANT CONNECT ON ENDPOINT :: end_point_name TO [NT AUTHORITY\SYSTEM];
+
+GO
+
+
+/*
+-- Create endpoint for mirror server.
+CREATE ENDPOINT EndPoint4DBMirroring51440 STATE = STARTED
+AS TCP 
+(
+    LISTENER_PORT = 51440
+   ,LISTENER_IP = ALL
+) FOR DATA_MIRRORING (ROLE = PARTNER, AUTHENTICATION = WINDOWS NEGOTIATE, ENCRYPTION = REQUIRED ALGORITHM RC4);
+
+GRANT CONNECT ON ENDPOINT :: EndPoint4DBMirroring51440 TO [NT AUTHORITY\SYSTEM];
+
+-- Create endpoint for witness server.
+CREATE ENDPOINT EndPoint4DBMirroring51450 STATE = STARTED
+AS TCP 
+(
+    LISTENER_PORT = 51450
+   ,LISTENER_IP = ALL
+) FOR DATA_MIRRORING (ROLE = WITNESS, AUTHENTICATION = WINDOWS NEGOTIATE, ENCRYPTION = REQUIRED ALGORITHM RC4);
+
+GRANT CONNECT ON ENDPOINT :: EndPoint4DBMirroring51450 TO [NT AUTHORITY\SYSTEM];
+*/
+
+/*
+SELECT name
+      ,type_desc
+      ,port
+      ,ip_address 
+FROM   sys.tcp_endpoints;
+
+SELECT name
+      ,role_desc
+      ,state_desc 
+FROM   sys.database_mirroring_endpoints;
+*/
