@@ -1,0 +1,9 @@
+Inside Microsoft SQL Server 2008: T-SQL Programming
+    https://www.safaribooksonline.com/library/view/inside-microsoft-sql/9780735639928/ch04.html
+
+Pro SQL Server Internals, Second Edition
+    https://www.safaribooksonline.com/library/view/pro-sql-server/9781484219645/A313962_2_En_9_Chapter.html
+
+Pro T-SQL Programmer’s Guide, 4th Edition
+    https://www.safaribooksonline.com/library/view/pro-t-sql-programmers/9781484201459/9781484201466_Ch07.xhtml
+

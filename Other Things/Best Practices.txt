@@ -1,0 +1,2 @@
+Bad habits : Counting rows the hard way
+    https://sqlperformance.com/2014/10/t-sql-queries/bad-habits-count-the-hard-way

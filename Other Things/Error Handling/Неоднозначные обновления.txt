@@ -1,0 +1,81 @@
+UPDATE
+    Не вызывала ошибку, обновляет соответствующую строку. Невозможно предсказать, какое из значений окажется в целевой таблице.
+    
+MERGE
+    Обнаруживает неоднозначность входящих данных. Завершает выполнение ошибкой.
+
+Стардатный метод ANSI.
+    UPDATE команда, которая вызывает ошибку при наличии двусмысленности:
+
+        UPDATE dbo.Table1 AS T1
+        SET    Column2 = (SELECT T2.Column2
+                          FROM   dbo.Table2 AS T2
+                          WHERE  T1.Column1 = T1.Column1)
+        WHERE  EXISTS (SELECT *
+                       FROM   dbo.Table2 AS T2
+                       WHERE  T1.Column1 = T2.Column1);
+                       
+    Это определенно не очень хорошая практика. Если необходимо обновить десять столбцов, нужно будет повторить почти один и тот же код одиннадцать раз!
+    
+Использование подзапроса для игнорирования неоднозначностей при обновлении встроенного представления.
+    
+    Вариант 1:
+
+        UPDATE T1
+        SET    T1.Column2 = T2.Column2
+        FROM   dbo.Table1 AS T1
+               INNER JOIN dbo.Table2 AS T2
+                       ON T1.Column1 = T2.Column1
+                          AND (SELECT COUNT(*)
+                               FROM   dbo.Table2 AS T2_1
+                               WHERE  T1.Column1 = T2_1.Column1) = 1
+    
+    Вариант 2:
+        
+        UPDATE T1
+        SET    T1.Column2 = T2.Column2
+        FROM   dbo.Table1 AS T1
+               INNER JOIN (SELECT T2.Column1
+                                 ,T2.Column2
+                                 ,COUNT(*) OVER (PARTITION BY T1.Column) AS NumVersion
+                           FROM   dbo.Table2 AS T2) AS T2
+                       ON T1.Column1 = T2.Column1
+                          T2.NumVersion = 1;
+    
+    Вариант 3:
+    
+        ;WITH CTE
+        AS
+        (
+            SELECT T1.Column1
+                  ,T1.Column2
+                  ,T2.Column2 AS NewColumn2
+            FROM   dbo.Table1 AS T1
+                   INNER JOIN dbo.Table2 AS T2
+                           ON T1.Column1 = T2.Column1
+                              AND (SELECT COUNT(*)
+                                   FROM   dbo.Table2 AS T2_1
+                                   WHERE  T1.Column1 = T2_1.Column1) = 1
+        )
+        
+        UPDATE CTE
+        SET    Column2 = NewColumn2;
+    
+    Вариант 4:
+    
+        ;WITH CTE
+        AS
+        (
+            SELECT T1.Column1
+                  ,T1.Column2
+                  ,T2.Column2 AS NewColumn2
+                  ,COUNT(*) OVER (PARTITION BY T1.Column) AS NumVersion
+            FROM   dbo.Table1 AS T1
+                   INNER JOIN dbo.Table2 AS T2
+                           ON T1.Column1 = T2.Column1
+        )
+        
+        UPDATE CTE
+        SET    Column2 = NewColumn2
+        WHERE  NumVersion = 1;
+        

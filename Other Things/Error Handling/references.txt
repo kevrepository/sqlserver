@@ -1,0 +1,9 @@
+﻿Error and Transaction Handling in SQL Server
+    Part One – Jumpstart Error Handling
+        http://www.sommarskog.se/error_handling/Part1.html
+    Part Two – Commands and Mechanisms
+        http://www.sommarskog.se/error_handling/Part2.html
+
+
+SQL Server T-SQL Recipes, Fourth Edition
+    https://www.safaribooksonline.com/library/view/sql-server-t-sql/9781484200612/9781484200629_Ch21.xhtml

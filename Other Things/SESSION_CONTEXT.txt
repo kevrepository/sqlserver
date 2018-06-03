@@ -1,0 +1,25 @@
+SESSION_CONTEXT хранилище типа key-value.
+ 
+Для установки значения используется хранимая процедура sp_set_session_context.
+ 
+sp_set_session_context [ @key= ] 'key', [ @value= ] 'value'
+    [ , [ @read_only = ] { 0 | 1 } ] 
+[ ; ]
+
+key
+    Тип sysname. Максимальный размер ключа составляет 128 байтов.
+value
+    Типа sql_variant. Максимальный размер составляет 8000 байт. Установка значения NULL освобождает память.
+read_only
+    Тип бит. Если 1, то значение может быть изменено в этом логическом соединении. Если 0 (по умолчанию), то значение можно изменить.
+        
+Функция SESSION_CONTEXT возвращает значение указанного ключа в текущем контексте сеанса.
+
+    SESSION_CONTEXT(N'key')
+    
+C помощью системного представления sys.dm_os_memory_objects можно посмотреть, сколько всего памяти занято на сервере переменными сессий.
+
+    SELECT *
+    FROM   sys.dm_os_memory_cache_counters
+    WHERE  type = 'CACHESTORE_SESSION_CONTEXT';
+ 

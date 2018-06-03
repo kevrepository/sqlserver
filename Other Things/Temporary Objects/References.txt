@@ -1,0 +1,17 @@
+SQL Server Temporary Object Caching
+    https://sqlperformance.com/2017/05/sql-performance/sql-server-temporary-object-caching
+    
+Temporary Table Caching Explained
+    http://sqlblog.com/blogs/paul_white/archive/2012/08/17/temporary-object-caching-explained.aspx
+    
+Why does truncating a temp table at the end of the stored procedure that creates it free tempdb space faster?
+    https://dba.stackexchange.com/questions/188659/why-does-truncating-a-temp-table-at-the-end-of-the-stored-procedure-that-creates/188727#188727
+    
+New Trace Flag to Fix Table Variable Performance
+    https://sqlperformance.com/2014/06/t-sql-queries/table-variable-perf-fix
+    
+What's the difference between a temp table and table variable in SQL Server?
+    https://dba.stackexchange.com/questions/16385/whats-the-difference-between-a-temp-table-and-table-variable-in-sql-server/16386#16386
+    
+Stored procedure recompile caused by alter table on temp table
+    https://blogs.msdn.microsoft.com/psssql/2011/07/15/stored-procedure-recompile-caused-by-alter-table-on-temp-table/

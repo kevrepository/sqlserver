@@ -1,0 +1,20 @@
+Переменная сессии CONTEXT_INFO позволяет сохранять данные переменной длины размером до 128 байт.
+
+SET CONTEXT_INFO { binary_str | @binary_var }
+
+CONTEXT_INFO()
+
+Можно использовать технику, когда в CONTEXT_INFO будет храниться не одно, а несколько значений, но в разных местах. Например, в позиции с 1 по 20 хранится идентификатор процесса, а 21 по 28 – дата и время.
+
+DECLARE @SessionID   int            = @@SPID
+       ,@DateTime    datetime       = GETDATE()
+       ,@ContextInfo varbinary(128);
+ select @SessionID
+SET @ContextInfo = CONVERT(binary(20), @SessionID) + CONVERT(binary(8), @DateTime);
+
+SET CONTEXT_INFO @ContextInfo;
+ 
+SELECT CONVERT(int, SUBSTRING(CONTEXT_INFO(), 1, 20)) AS SessionID
+      ,CONVERT(datetime, SUBSTRING(CONTEXT_INFO(), 21, 8)) AS [DateTime];
+
+Сведения о контексте сеанса сохраняются в context_info столбцах в системных представлениях sys.dm_exec_requests, sys.dm_exec_sessions и sys.sysprocesses.

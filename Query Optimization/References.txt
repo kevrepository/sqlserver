@@ -1,0 +1,2 @@
+Query Plans: Trivial Optimization vs Simple Parameterization
+    https://www.brentozar.com/archive/2017/06/query-plans-trivial-optimization-vs-simple-parameterization/

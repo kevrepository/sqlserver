@@ -1,0 +1,1 @@
+https://www.safaribooksonline.com/library/view/defensive-database-programming/9781906434489/ch01.html#how_set_rowcount_can_break_a_trigger
