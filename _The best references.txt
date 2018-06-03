@@ -1,0 +1,21 @@
+In-Memory
+    Extreme Transaction Processing (XTP, Hekaton) – the solution to everything?
+        http://www.sqlpassion.at/archive/2013/08/12/extreme-transaction-processing-xtp-hekaton-the-solution-to-everything/
+        
+    Changing In-Memory Table definition without down time
+        http://dataidol.com/tonyrogerson/2014/06/12/changing-in-memory-table-definition-without-down-time/
+        
+    SQL Server Hekaton (XTP) in-memory tables: Choosing the correct BUCKET_COUNT for a Hash Index
+        http://dataidol.com/tonyrogerson/2014/01/25/sql-server-hekaton-xtp-in-memory-tables-choosing-the-correct-bucket_count-for-a-hash-index/
+        
+    SQL Server Hekaton In-memory tables: Understanding the Row Chains of Hash Indexes
+        http://dataidol.com/tonyrogerson/2014/01/16/sql-server-hekaton-in-memory-tables-understanding-the-row-chains-of-hash-indexes/
+        
+    SQL Server Hekaton (XTP) in-memory Tables: Range Indexes and Row Chains
+        http://dataidol.com/tonyrogerson/2014/01/21/sql-server-hekaton-xtp-in-memory-tables-range-indexes-and-row-chains/
+        
+SQL Server 2017 CU3 adds tempdb spill diagnostics in DMVs and Extended Events
+    https://www.brentozar.com/archive/2018/01/sql-server-2017-cu3-adds-tempdb-spill-diagnostics-dmvs-extended-events/
+    
+Why LOB data makes shrink run slooooowly (T-SQL Tuesday #006)
+    https://www.sqlskills.com/blogs/paul/why-lob-data-makes-shrink-run-slooooowly-t-sql-tuesday-006/

@@ -1,0 +1,2 @@
+SQL Server Samples Repository
+    https://github.com/Microsoft/sql-server-samples

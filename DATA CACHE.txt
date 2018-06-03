@@ -1,0 +1,11 @@
+DMV sys.dm_os_buffer_descriptors содержит одну строку для каждой страницы данных в настоящее время содержащихся в кэше.
+    
+Сколько места каждая база данных использует в кеше данных: 
+    SELECT count(*)*8/1024 AS 'Cached Size (MB)'
+          ,CASE database_id
+           WHEN 32767 THEN 'ResourceDb'
+           ELSE db_name(database_id)
+           END AS 'Database'
+    FROM   sys.dm_os_buffer_descriptors
+    GROUP  BY DB_NAME(database_id), database_id
+    ORDER  BY 'Cached Size (MB)' DESC
