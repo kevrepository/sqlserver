@@ -1,0 +1,21 @@
+Memory Performance Analysis
+    https://www.safaribooksonline.com/library/view/sql-server-query/9781430267423/9781430267430_Ch02.xhtml
+
+Understanding Memory
+    https://www.safaribooksonline.com/library/view/professional-sql-server/9781118240274/xhtml/Chapter03.html
+        
+Мониторинг и устранение неполадок с использованием памяти In-Memory OLTP.
+    https://msdn.microsoft.com/ru-ru/library/dn465869(v=sql.120).aspx
+    
+Использование команды DBCC MEMORYSTATUS для мониторинга использования памяти в SQL Server 2005
+    https://support.microsoft.com/ru-ru/help/907877/how-to-use-the-dbcc-memorystatus-command-to-monitor-memory-usage-on-sql
+    
+Lock pages in memory (LPIM)    
+    How to enable the "locked pages" feature in SQL Server 2012
+        https://support.microsoft.com/ru-ru/help/2659143/how-to-enable-the-locked-pages-feature-in-sql-server-2012
+        
+    Great SQL Server Debates: Lock Pages in Memory
+        https://www.red-gate.com/simple-talk/sql/database-administration/great-sql-server-debates-lock-pages-in-memory/
+        
+    SQL Server and the “Lock pages in memory” Right in Windows Server
+        https://sqlserverperformance.wordpress.com/2011/02/14/sql-server-and-the-lock-pages-in-memory-right-in-windows-server/          

@@ -1,0 +1,9 @@
+Pro SQL Server Wait Statistics
+    https://www.safaribooksonline.com/library/view/pro-sql-server/9781484211397/
+
+SQL Server Wait Types Library
+    https://www.sqlskills.com/help/waits/
+
+SQL Server Latch Classes Library
+    https://www.sqlskills.com/help/latches
+

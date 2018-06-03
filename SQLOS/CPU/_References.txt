@@ -1,0 +1,17 @@
+CPU Performance Analysis
+    https://www.safaribooksonline.com/library/view/sql-server-query/9781430267423/9781430267430_Ch04.xhtml
+    
+Processor Counters
+    https://technet.microsoft.com/en-us/library/cc938593.aspx
+    
+User Mode and Privileged Mode
+    https://technet.microsoft.com/en-us/library/cc938616.aspx
+    
+Monitoring Context Switches
+    https://technet.microsoft.com/en-us/library/cc938606.aspx
+    
+Observing Processor Queue Length
+    https://technet.microsoft.com/en-us/library/cc940375.aspx
+    
+Examining the Processor Time Counter
+    https://technet.microsoft.com/en-us/library/cc938603.aspx

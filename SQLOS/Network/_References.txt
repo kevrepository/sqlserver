@@ -1,0 +1,2 @@
+Network Bottleneck Analysis
+    https://www.safaribooksonline.com/library/view/sql-server-query/9781430267423/9781430267430_Ch04.xhtml#Sec17

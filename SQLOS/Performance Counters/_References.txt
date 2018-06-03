@@ -1,0 +1,23 @@
+Use SQL Server Objects
+    https://docs.microsoft.com/en-us/sql/relational-databases/performance-monitor/use-sql-server-objects
+
+High Performance SQL Server: The Go Faster Book
+    https://www.safaribooksonline.com/library/view/high-performance-sql/9781484222713/A393702_1_En_7_Chapter.html
+    
+Interpreting the counter values from sys.dm_os_performance_counters
+    https://blogs.msdn.microsoft.com/psssql/2013/09/23/interpreting-the-counter-values-from-sys-dm_os_performance_counters/
+    
+Monitor Memory Usage
+    https://docs.microsoft.com/en-us/sql/relational-databases/performance-monitor/monitor-memory-usage
+    
+Evaluating Memory and Cache Usage
+    https://technet.microsoft.com/en-us/library/cc958290.aspx
+    
+An Overview of Troubleshooting Memory Issues – Part Two
+    https://blogs.technet.microsoft.com/askperf/2008/01/29/an-overview-of-troubleshooting-memory-issues-part-two/
+    
+Выявление узких мест, связанных с работой памяти
+    http://www.aha.ru/~maiden/mcse/memory.htm
+
+Customizing the Default Counters for Performance Monitor
+    https://www.sqlskills.com/blogs/erin/customizing-the-default-counters-for-performance-monitor/

@@ -1,0 +1,26 @@
+Включить DAC:
+            
+    sp_configure 'remote admin connections', 1;
+    GO
+    RECONFIGURE;
+    GO
+
+Подключиться к DSC с помощью инструмента командной строки sqlcmd:
+    
+    sqlcmd -S [protocol:]server[instance_name][,port] -U login_id -P password -A (dedicated administrator connection)
+    
+Если DAC активен, запрос возвращает SPID для DAC, в противном случае он не возвращает строк:
+    
+    SELECT des.session_id
+    FROM   sys.tcp_endpoints AS te
+        INNER JOIN sys.dm_exec_sessions AS des
+                ON te.endpoint_id = des.endpoint_id 
+    WHERE  te.name = N'Dedicated Admin Connection';
+    
+    
+Как использовать DAC:
+    - По умолчанию DAC доступен только локально. Тем не менее, администраторы могут настроить SQL Server для удаленного подключения с помощью настройки конфигурации - Remote Admin Connections.
+    - Для подключения через DAC, пользователь, должен быть членом роли сервера sysadmin.
+    - Cоединение DAC создается в основном для устранения неполадок и диагностики. В общем, вы используете DAC для запуска запросов к объектам динамического управления.
+    
+SQL Server 2012 Express Edition не поддерживает соединение DAC, если оно не запущено с флагом трассировки 7806.
