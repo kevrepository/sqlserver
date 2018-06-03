@@ -1,0 +1,45 @@
+Rebuild System Databases
+    https://docs.microsoft.com/en-us/sql/relational-databases/databases/rebuild-system-databases?view=sql-server-2017
+
+Back Up and Restore of System Databases 
+    https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/back-up-and-restore-of-system-databases-sql-server?view=sql-server-2017
+    
+Resource Database
+    https://docs.microsoft.com/en-us/sql/relational-databases/databases/resource-database?view=sql-server-2017
+
+Move System Databases
+    https://docs.microsoft.com/en-us/sql/relational-databases/databases/move-system-databases?view=sql-server-2017
+    
+Attach a Database
+    https://docs.microsoft.com/en-us/sql/relational-databases/databases/attach-a-database?view=sql-server-2017
+    
+Repair a Failed SQL Server Installation
+    https://docs.microsoft.com/en-us/sql/database-engine/install-windows/repair-a-failed-sql-server-installation?view=sql-server-2017
+    
+SQL Server Database Recovery Process Internals – database STARTUP Command
+	https://www.sqlshack.com/sql-server-database-recovery-process-internals-database-startup-command/
+	
+DBCC CHECKDB
+    Complete description of all CHECKDB stages
+        https://www.sqlskills.com/blogs/paul/checkdb-from-every-angle-complete-description-of-all-checkdb-stages/
+
+    How long will CHECKDB take to run?
+        https://www.sqlskills.com/blogs/paul/checkdb-from-every-angle-how-long-will-checkdb-take-to-run/
+        
+        
+    How often should I run DBCC CHECKDB?
+        https://www.brentozar.com/archive/2016/02/how-often-should-i-run-dbcc-checkdb/
+    
+    DBCC CHECKDB Using SSIS to restore your database to a different server.
+        https://aramaniblog.wordpress.com/2016/02/25/dbcc-checkdb-using-ssis-to-restore-your-database-to-a-different-server/
+    
+    
+    CHECKDB From Every Angle: Consistency Checking Options for a VLDB
+        https://www.sqlskills.com/blogs/paul/checkdb-from-every-angle-consistency-checking-options-for-a-vldb/
+        
+    Conference corruption demo scripts and example corrupt databases
+        https://www.sqlskills.com/blogs/paul/conference-corruption-demo-scripts-and-example-corrupt-databases/
+        
+    CHECKDB From Every Angle: Why would CHECKDB run out of space?
+        https://www.sqlskills.com/blogs/paul/checkdb-from-every-angle-why-would-checkdb-run-out-of-space/
+    

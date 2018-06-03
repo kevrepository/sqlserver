@@ -1,0 +1,21 @@
+How to BACKUP LOG WITH TRUNCATE_ONLY in SQL Server 2008, R2, 2012
+    https://www.brentozar.com/archive/2009/08/backup-log-with-truncate-only-in-sql-server-2008/
+
+Ускорение резервного копирования БД
+    http://sqlcom.ru/helpful-and-interesting/increase-speed-of-backup/
+    
+How to increase SQL Database Full Backup speed using compression and Solid State Disks
+    http://henkvandervalk.com/how-to-increase-sql-database-full-backup-speed-using-compression-and-solid-state-disks
+How to increase the SQL Database Restore speed using DB compression and Solid State Disks
+    http://henkvandervalk.com/how-to-increase-the-sql-database-restore-speed-using-db-compression-and-solid-state-disks
+    
+Сжатие резервных копий
+    https://docs.microsoft.com/ru-ru/sql/relational-databases/backup-restore/backup-compression-sql-server?view=sql-server-2017
+Использование регулятора ресурсов для ограничения загрузки ЦП при сжатии резервной копии
+    https://docs.microsoft.com/ru-ru/sql/relational-databases/backup-restore/use-resource-governor-to-limit-cpu-usage-by-backup-compression-transact-sql?view=sql-server-2017
+    
+SQL Server Trace Flag 3213
+    http://www.sqlservergeeks.com/sql-server-trace-flag-3213/
+    
+Transaction log backup - format or noformat?
+    https://www.sqlservercentral.com/Forums/1085525/Transaction-log-backup--format-or-noformat

@@ -1,0 +1,14 @@
+Доступные алгоритмы шифрования: 
+    - AES 128.
+    - AES 192.
+    - AES 256.
+    - Triple DES.
+    
+Шаги для создания зашифрованной резервной копии базы данных:
+    - Cоздание главного ключа базы данных.
+      
+      USE master;
+      GO
+      
+      CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'password';
+      GO
