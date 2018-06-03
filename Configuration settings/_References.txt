@@ -1,0 +1,11 @@
+sp_configure (Transact-SQL)
+    https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-configure-transact-sql
+    
+sys.configurations (Transact-SQL)
+    https://docs.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-configurations-transact-sql
+    
+RECONFIGURE (Transact-SQL)
+    https://docs.microsoft.com/en-us/sql/t-sql/language-elements/reconfigure-transact-sql
+    
+Server Configuration Options (SQL Server)
+    https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/server-configuration-options-sql-server

@@ -1,0 +1,23 @@
+sp_cache_hit
+    План находится в кеше.
+sp_cache_miss
+    План не найден в кеше.
+sp_cache_insert
+    Событие срабатывает при добавлении плана в кеш.
+sp_cache_remove
+    Событие срабатывает, когда план удаляется из кеша.
+    
+sql_batch_completed
+module_end
+
+sql_statement_recompile
+    recompile_cause
+
+sql_batch_starting
+module_start
+
+sp_statement_completed
+sql_statement_completed
+
+sp_statement_starting
+sql_statement_starting

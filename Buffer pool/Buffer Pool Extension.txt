@@ -1,0 +1,36 @@
+ https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/buffer-pool-extension
+ https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-server-configuration-transact-sql
+ 
+ Buffer Pool Extension позволяет в случае ограниченного набора памяти кэшировать страницы с данными на SSD диске.
+ 
+ Включить Buffer Pool Extension можно с помощью команды ALTER SERVER CONFIGURATION и указать расположение файла и его размер, который будет использоваться в качестве Buffer Pool Extension.
+ 
+    ALTER SERVER CONFIGURATION SET BUFFER POOL EXTENSION ON { ( FILENAME = 'os_file_path_and_name' , SIZE = { size [ KB | MB | GB ] } ) | OFF };
+    
+После выполнения данной команды создается указанный нами файл, который сразу начинается использоваться.
+SQL Server может использовать его только для кэширования чистых страниц.
+
+sys.dm_os_buffer_pool_extension_configuration
+
+sys.dm_os_buffer_descriptors is_in_bpool_extension
+
+SQLServer:Buffer Manager\Extension page writes/sec
+SQLServer:Buffer Manager\Extension page reads/sec
+SQLServer:Buffer Manager\Extension outstanding IO counter
+SQLServer:Buffer Manager\Extension page evictions/sec
+SQLServer:Buffer Manager\Extension allocated pages
+SQLServer:Buffer Manager\Extension free pages
+SQLServer:Buffer Manager\Extension in use as percentage
+SQLServer:Buffer Manager\Extension page unreferenced time
+
+sqlserver.buffer_pool_extension_pages_written
+sqlserver.buffer_pool_extension_pages_read
+sqlserver.buffer_pool_extension_pages_evicted
+sqlserver.buffer_pool_eviction_thresholds_recalculated
+ 
+ 
+http://olontsev.ru/2013/08/buffer-pool-extension-sql-server-2014-overview/
+http://olontsev.ru/2013/08/buffer-pool-extension-sql-server-2014-performance-test/
+http://olontsev.ru/2013/08/buffer-pool-extension-sql-server-2014-monitoring/
+http://olontsev.ru/2013/08/buffer-pool-extension-sql-server-2014-performance-update-test/
+ 
