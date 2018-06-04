@@ -1,0 +1,5 @@
+Expert Performance Indexing in SQL Server, Second Edition
+    https://www.safaribooksonline.com/library/view/expert-performance-indexing/9781484211182/9781484211199_Ch04.xhtml
+
+XML and JSON Recipes for SQL Server: A Problem-Solution Approach
+    https://www.safaribooksonline.com/library/view/xml-and-json/9781484231173/A435478_1_En_7_Chapter.html

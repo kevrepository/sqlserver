@@ -1,0 +1,16 @@
+Expert Performance Indexing in SQL Server, Second Edition
+    https://www.safaribooksonline.com/library/view/expert-performance-indexing/9781484211182/9781484211199_Ch03.xhtml
+
+Pro SQL Server Internals, Second Edition
+    https://www.safaribooksonline.com/library/view/pro-sql-server/9781484219645/A313962_2_En_3_Chapter.html
+    
+Persisting statistics sampling rate
+    https://blogs.msdn.microsoft.com/sql_server_team/persisting-statistics-sampling-rate/
+
+Setting the Sample Rate for Auto Stats updates
+    http://www.sqlservercentral.com/blogs/matthew-mcgiffen-dba/2017/09/12/setting-the-sample-rate-for-auto-stats-updates/
+    
+SQL Server query optimizer hotfix trace flag 4199 servicing model
+    https://support.microsoft.com/en-us/help/974006/sql-server-query-optimizer-hotfix-trace-flag-4199-servicing-model
+    
+    

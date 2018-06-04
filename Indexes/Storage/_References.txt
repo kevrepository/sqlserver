@@ -1,0 +1,12 @@
+Inside the Storage Engine: IAM pages, IAM chains, and allocation units
+    https://www.sqlskills.com/blogs/paul/inside-the-storage-engine-iam-pages-iam-chains-and-allocation-units/
+    
+
+Inside The Storage Engine: GAM, SGAM, PFS and other allocation maps
+    https://www.sqlskills.com/blogs/paul/inside-the-storage-engine-gam-sgam-pfs-and-other-allocation-maps/
+    
+SQL Server Storage Internals Part 1 - Basics
+    http://www.sqlservercentral.com/blogs/livingforsqlserver/2010/12/13/sql-server-storage-internals-part-1-basics/
+    
+Inside the Storage Engine: Anatomy of a page
+    https://www.sqlskills.com/blogs/paul/inside-the-storage-engine-anatomy-of-a-page/
