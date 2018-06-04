@@ -1,0 +1,14 @@
+Columnstore Indexes
+    https://www.safaribooksonline.com/library/view/pro-sql-server/9781484219645/A313962_2_En_33_ChapterPart7.html
+
+Columnstore indexes - what's new
+    https://docs.microsoft.com/en-us/sql/relational-databases/indexes/columnstore-indexes-what-s-new
+    
+Columnstore
+    http://www.nikoport.com/columnstore/
+    
+Дефрагментация индексов columnstore
+    https://docs.microsoft.com/ru-ru/sql/relational-databases/indexes/columnstore-indexes-defragmentation
+    
+Is the eager spool operator useful for this delete from a clustered columnstore?
+    https://dba.stackexchange.com/questions/123993/is-the-eager-spool-operator-useful-for-this-delete-from-a-clustered-columnstore

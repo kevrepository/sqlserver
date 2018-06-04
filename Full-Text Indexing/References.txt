@@ -1,0 +1,5 @@
+Expert Performance Indexing in SQL Server, Second Edition
+    https://www.safaribooksonline.com/library/view/expert-performance-indexing/9781484211182/9781484211199_Ch06.xhtml
+    
+Best Practices for Integrated Full Text Search (iFTS) in SQL 2008
+    https://blogs.msdn.microsoft.com/sqlcat/2008/11/05/best-practices-for-integrated-full-text-search-ifts-in-sql-2008/
