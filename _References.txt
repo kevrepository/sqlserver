@@ -1,0 +1,11 @@
+High Performance SQL Server: The Go Faster Book
+    https://www.safaribooksonline.com/library/view/high-performance-sql/9781484222713/A393702_1_En_8_Chapter.html
+
+Clustered Index Uniquifier Existence and Size
+	https://sqlquantumleap.com/2017/09/18/clustered-index-uniquifier-existence-and-size/
+    
+How Online Index Operations Work
+    https://technet.microsoft.com/en-us/library/ms191261(SQL.90).aspx
+    
+How filtered indexes could be a more powerful feature
+    https://sqlperformance.com/2013/04/t-sql-queries/filtered-indexes

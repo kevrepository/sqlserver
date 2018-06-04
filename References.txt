@@ -1,0 +1,5 @@
+High Performance SQL Server: The Go Faster Book
+    https://www.safaribooksonline.com/library/view/high-performance-sql/9781484222713/A393702_1_En_8_Chapter.html
+
+Clustered Index Uniquifier Existence and Size
+	https://sqlquantumleap.com/2017/09/18/clustered-index-uniquifier-existence-and-size/
